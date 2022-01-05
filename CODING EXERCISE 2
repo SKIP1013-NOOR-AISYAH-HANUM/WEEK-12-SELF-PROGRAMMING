@@ -1,0 +1,28 @@
+package selfprogramming;
+
+// Compute the average of three numbers
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner in = new Scanner(System.in);
+        System.out.print("Enter first popsicle taken: ");
+        double x = in.nextDouble();
+        System.out.print("Enter second popsicle taken: ");
+        double y = in.nextDouble();
+        System.out.print("Enter third  popsicle taken: ");
+        double z = in.nextDouble();
+        System.out.print("The average popsicle taken " + average(x, y, z)+"\n" );
+    }
+
+  public static double average(double x, double y, double z)
+    {
+        return (x + y + z) / 3;
+
+	}
+
+}
