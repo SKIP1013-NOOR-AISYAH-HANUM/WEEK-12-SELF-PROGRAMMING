@@ -1,0 +1,8 @@
+Enter investment amount: 900
+Enter rate of interest: 10
+Enter number of years: 4
+Years    FutureValue
+1             994.24
+2            1098.35
+3            1213.36
+4            1340.42
